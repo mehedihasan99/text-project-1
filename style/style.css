@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    min-width: 100vh;
+    background-color:#efefef;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #43488F;
+    color: #ffffff;
+}
+.brand{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF96C6;
+}
+.nav-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.nav-item-container{
+    margin-left: auto;
+    display: flex;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item a{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color:#4BF8B4;
+}
+.profile-card{
+    width: 100%;
+    height: 470px;
+    margin-top: 50px;
+    background-color:#f7f7f7 ;
+    box-shadow: 4px 3px 10px #888888;
+    border-radius: 10px;
+    display: flex;
+}
+.profile-img-section{
+    width: 470px;
+    display: flex;
+    justify-content: center;
+    align-self: center; 
+   
+}
+.circle-card{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circle-card img{
+    width: 100%;
+    height: auto;
+}
+.profile-intro-section{
+    width: 930px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.profile-intro-section h1{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.profile-intro-section h3{
+    font-size: 24px;
+    margin-top: 8px;
+    font-weight: 500;
+    color: rgb(100, 98, 98);
+}
+.socail-icons{
+    margin-top: 42px;
+    font-size: 35px;
+    
+}
+.socail-icons a{
+    margin-right: 10px;
+    color:#FF96C6;
+}
+.skill-chips{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.skill-chip{
+    background-color:#43488F;
+    color:#4BF8B4;
+    margin-right: 14px;
+    padding: 10px 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.profile-bio{
+    margin-top: 42px;
+}
+.profile-bio p{
+    color: rgb(100, 98, 98);
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 150px;
+}
+.my-skills-section{
+    width: 100%;
+    height: 490px;
+    margin-top: 50px;
+    background-color:#f7f7f7 ;
+    box-shadow: 4px 3px 10px #888888;
+    border-radius: 10px;
+    padding: 35px 40px;
+}
+.section-heading{
+    font-size: 36px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skill-item-container{
+    display: flex;
+    margin-top: 20px;
+}
+.item-img-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.item-img-container img{
+    width: 100%;
+    height: auto;
+}
+.item-text-container{
+    margin-left: 40px;
+    
+}
+.item-text-container h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #43488F;
+}
+.item-text-container h3{
+    color:rgb(34, 33, 33);
+    font-weight: 600;
+    margin-top: 5px;
+}
+.item-text-container p{
+    margin-top: 20px;
+    color: rgb(100, 98, 98);
+}
+
+.my-experience-section{
+    width: 100%;
+    height: 490px;
+    margin-top: 50px;
+    background-color:#f7f7f7 ;
+    box-shadow: 4px 3px 10px #888888;
+    border-radius: 10px;
+    padding: 35px 40px;
+}
+.experiences-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.experiences-item h1{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #43488F;
+    margin-bottom: 5px;
+}
+.experiences-item h3{
+    color:rgb(34, 33, 33);
+    font-weight: 600;
+}
+.experiences-item p{
+    width: 450px;
+    margin-top: 10px;
+    color: rgb(100, 98, 98);
+    line-height: 18px;
+}
+.portfolio-section{
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    background-color:#f7f7f7 ;
+    box-shadow: 4px 3px 10px #888888;
+    border-radius: 10px;
+    padding: 35px 40px;
+}
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+}
+.portfolio-item {
+    width: 100%;
+    box-shadow: 4px 6px 8px #d1d0d0;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.portfolio-item{
+    width: 380px;
+    overflow: hidden;
+}
+.portfolio-item img{
+    width: 100%;
+}
+.portfolio-text{
+    padding: 15px 20px;
+}
+.portfolio-text h3{
+    color:rgb(34, 33, 33);
+    font-weight: 600;
+    font-size: 18px;
+}
+.portfolio-text p{
+    margin-top: 10px;
+    color: rgb(100, 98, 98);
+    line-height: 20px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #43488F;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h3{
+    font-size: 25px;
+    font-weight: 500;
+    color:#4BF8B4;
+}
